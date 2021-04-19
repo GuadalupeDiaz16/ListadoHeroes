@@ -8,8 +8,11 @@ import { Component} from '@angular/core';
 export class ListadoComponent {
 
   heroes: string[] = ['hulk', 'Saitama', 'Superman', 'thor', 'goku'];
+  public eliminado :string = "";
   
-  
-eliminar(heroe){}
+eliminar(heroe: string){
+  this.heroes.splice(this.heroes.indexOf(heroe),1)
+  this.eliminado=heroe
+}
 }
 
