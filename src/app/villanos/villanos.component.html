@@ -1,0 +1,25 @@
+<h1>Funciona con el Villano: {{ nombre }}</h1>
+
+
+
+<dl>
+  <td> Nombre: </td>
+  <dd>{{nombre}}</dd>
+
+  <td> Edad: </td>
+  <dd>{{edad}}</dd>
+  <td> Poder: </td>
+  <dd>{{numero}}</dd>
+  <td> Incrementar Poder:<button (click) = "acumular(base)">+{{base}}</button> </td> 
+<!-- <button (click) = "sumar()">+1</button> -->
+
+
+
+  
+
+
+</dl>
+<button (click)="cambiarNombre()">Cambiar Nombre</button>
+
+<button (click)="cambiarEdad()">Cambiar Edad</button>
+<button (click)="cambiarNumero()">Cambiar Poder</button>

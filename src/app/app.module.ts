@@ -5,10 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { ContadorModule } from './contador/contador.module';
+import { VillanosComponent } from './villanos/villanos.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
+    AppComponent
   ],
 
   imports: [
